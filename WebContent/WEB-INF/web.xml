@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>InsertItem</display-name>
+    <servlet-name>InsertItem</servlet-name>
+    <servlet-class>jp.webschool.javaweb.chapter10.InsertItem</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InsertItem</servlet-name>
+    <url-pattern>/InsertItem</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RemoveItem</display-name>
+    <servlet-name>RemoveItem</servlet-name>
+    <servlet-class>jp.webschool.javaweb.chapter10.RemoveItem</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveItem</servlet-name>
+    <url-pattern>/RemoveItem</url-pattern>
+  </servlet-mapping>
 </web-app>
